@@ -1,0 +1,47 @@
+# Ignore Python-related files (FastAPI backend)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# FastAPI / Uvicorn logs
+*.log
+
+# Ignore Node.js dependencies (Next.js frontend)
+node_modules/
+.npm/
+.pnpm/
+.yarn/
+.yarn-cache/
+package-lock.json
+
+# Ignore Next.js build output
+.next/
+out/
+
+# Ignore logs & debugging files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ignore environment variables (Both Backend & Frontend)
+.env
+.env.local
+.env.production
+.env.test
+
+# Ignore IDE / Editor configurations
+.vscode/
+.idea/
+*.iml
+*.swp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
